@@ -1,0 +1,15 @@
+CREATE DATABASE bd_colores;
+
+USE bd_colores;
+
+CREATE TABLE color(
+    id INT AUTO_INCREMENT,
+    color_hexa VARCHAR(7),
+    PRIMARY KEY(id)
+);
+
+INSERT INTO color VALUES(NULL, '#BF00FF');
+INSERT INTO color VALUES(NULL, '#0B0B61');
+INSERT INTO color VALUES(NULL, '#04B431');
+
+SELECT * FROM color;
